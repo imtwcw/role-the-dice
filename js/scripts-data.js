@@ -10,18 +10,18 @@ const SCRIPTS = [
     cityLimited: false,
     cover: "images/glass-house.jpg",
     description: "推理悬疑本，适合喜欢逻辑推演的玩家。",
-    featured: true
+    featured: false
   },
   {
     id: "ancient-1",
-    title: "古装示例本",
-    type: "古装",
-    players: "6人",
-    duration: "4-5小时",
+    title: "孙策",
+    type: "古风情感",
+    players: "4女3男",
+    duration: "6-7小时",
     difficulty: "新手友好",
     cityLimited: true,
-    cover: "images/ancient.jpg",
-    description: "含汉服体验的古装剧本。",
+    cover: "images/sunce.jpg",
+    description: "“孙家儿郎，誓死不降，宁死沙场，不死温床”。",
     featured: true
   }
 ];
