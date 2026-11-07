@@ -23,5 +23,41 @@ const SCRIPTS = [
     cover: "images/sunce.jpg",
     description: "“孙家儿郎，誓死不降，宁死沙场，不死温床”。",
     featured: true
-  }
+  },
+  {
+    id: "ancient-1",
+    title: "孙策",
+    type: "古风情感",
+    players: "4女3男",
+    duration: "6-7小时",
+    difficulty: "新手友好",
+    cityLimited: true,
+    cover: "images/sunce.jpg",
+    description: "“孙家儿郎，誓死不降，宁死沙场，不死温床”。",
+    featured: true
+  },
+   {
+    id: "ancient-1",
+    title: "孙策",
+    type: "古风情感",
+    players: "4女3男",
+    duration: "6-7小时",
+    difficulty: "新手友好",
+    cityLimited: true,
+    cover: "images/sunce.jpg",
+    description: "“孙家儿郎，誓死不降，宁死沙场，不死温床”。",
+    featured: true
+  },
+   {
+    id: "ancient-1",
+    title: "孙策",
+    type: "古风情感",
+    players: "4女3男",
+    duration: "6-7小时",
+    difficulty: "新手友好",
+    cityLimited: true,
+    cover: "images/sunce.jpg",
+    description: "“孙家儿郎，誓死不降，宁死沙场，不死温床”。",
+    featured: true
+  },
 ];
