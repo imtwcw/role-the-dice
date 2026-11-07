@@ -4,7 +4,7 @@ const SCRIPTS = [
     id: "glass-house",
     title: "档案：玻璃屋",
     type: "推理悬疑",
-    players: "5-6人",
+    players: "6-7人",
     duration: "4小时",
     difficulty: "进阶",
     cityLimited: false,
