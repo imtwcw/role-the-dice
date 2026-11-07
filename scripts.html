@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>剧本列表 | Role The Dice</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Role The Dice</a>
+      <nav class="nav">
+        <a href="index.html">首页</a>
+        <a href="scripts.html">剧本</a>
+        <a href="booking.html">预约</a>
+        <a href="about.html">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section container">
+    <h1>剧本列表</h1>
+    <div class="filters">
+      <select id="filter-type">
+        <option value="">全部类型</option>
+        <option value="推理悬疑">推理悬疑</option>
+        <option value="古装">古装</option>
+        <option value="情感">情感</option>
+      </select>
+      <label>
+        <input type="checkbox" id="filter-city" /> 仅看城限
+      </label>
+    </div>
+    <div id="script-list" class="card-grid"></div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Role The Dice · Miri, Sarawak</p>
+      <a class="wa-float" href="https://wa.me/60168607741" target="_blank" rel="noopener">WhatsApp 预约</a>
+    </div>
+  </footer>
+
+  <script src="js/scripts-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
