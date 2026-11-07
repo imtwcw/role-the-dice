@@ -86,3 +86,85 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 480px) {
   .nav { gap: 10px; font-size: .85rem; }
 }
+/* 板块标题 */
+.section-title {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin-bottom: 28px;
+  position: relative;
+  padding-left: 14px;
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 6px; bottom: 6px;
+  width: 4px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+
+/* 特色卡片 */
+.feature-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.feature {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: transform .25s ease, border-color .25s ease;
+}
+.feature:hover {
+  transform: translateY(-6px);
+  border-color: var(--primary);
+}
+.feature-icon { font-size: 2rem; margin-bottom: 10px; }
+.feature h3 { margin: 0 0 8px; }
+.feature p { color: var(--muted); font-size: .92rem; margin: 0; }
+
+/* 环境图墙 */
+.gallery {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.gallery-item {
+  height: 220px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  background-color: #222;
+  border: 1px solid var(--border);
+  transition: transform .3s ease;
+}
+.gallery-item:hover { transform: scale(1.03); }
+
+/* 评价 */
+.review-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.review {
+  margin: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: 12px;
+  padding: 20px;
+}
+.review p { margin: 0 0 10px; }
+.review cite { color: var(--muted); font-size: .85rem; font-style: normal; }
+
+/* 按钮悬停动效 */
+.btn { transition: transform .2s ease, opacity .2s ease; }
+.btn:hover { transform: translateY(-2px); opacity: .92; }
+
+/* 热门剧本卡片悬停 */
+.card { transition: transform .25s ease, box-shadow .25s ease; }
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.45);
+}
