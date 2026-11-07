@@ -168,3 +168,13 @@ a { color: inherit; text-decoration: none; }
   transform: translateY(-6px);
   box-shadow: 0 12px 30px rgba(0,0,0,.45);
 }
+.scroll-hint {
+  margin-top: 32px;
+  color: var(--muted);
+  font-size: .85rem;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
