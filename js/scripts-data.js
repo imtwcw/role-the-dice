@@ -3,7 +3,7 @@ const SCRIPTS = [
   {
     id: "glass-house",
     title: "档案：玻璃屋",
-    type: "推理悬疑",
+    type: "推理",
     players: "6-7人",
     duration: "4小时",
     difficulty: "进阶",
@@ -15,7 +15,7 @@ const SCRIPTS = [
   {
     id: "ancient-1",
     title: "孙策",
-    type: "古风情感",
+    type: "情感",
     players: "4女3男",
     duration: "6-7小时",
     difficulty: "新手友好",
@@ -27,7 +27,7 @@ const SCRIPTS = [
   {
     id: "ancient-1",
     title: "孙策",
-    type: "古风情感",
+    type: "情感",
     players: "4女3男",
     duration: "6-7小时",
     difficulty: "新手友好",
@@ -39,7 +39,7 @@ const SCRIPTS = [
    {
     id: "ancient-1",
     title: "孙策",
-    type: "古风情感",
+    type: "情感",
     players: "4女3男",
     duration: "6-7小时",
     difficulty: "新手友好",
@@ -51,7 +51,7 @@ const SCRIPTS = [
    {
     id: "ancient-1",
     title: "孙策",
-    type: "古风情感",
+    type: "情感",
     players: "4女3男",
     duration: "6-7小时",
     difficulty: "新手友好",
